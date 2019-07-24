@@ -1,0 +1,64 @@
+strong{
+    color: #fec722;
+}
+
+
+.single-courses_v .single-courses-area .single-curses-contert .description-content h1 {
+    padding-top: 40px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #eaeaea;
+}
+.single-courses_v .single-courses-area .single-curses-contert .description-content h2{
+    padding-top: 40px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #eaeaea;
+}
+
+
+.single-courses_v .single-courses-area .single-curses-contert .description-content  {
+    padding-bottom: 20px;
+}
+
+.single-courses_v .single-courses-area .single-curses-contert .description-content  ul li {
+    font-family: "Open Sans", sans-serif;
+    line-height: 24px;
+    font-size: 14px;
+    padding-left: 15px;
+    position: relative;
+    color: #666666;
+    list-style-type: none;
+
+}
+.single-courses_v .single-courses-area .single-curses-contert .description-content  ul li:before {
+    color: #fec722;
+    position: absolute;
+    content: "\f101";
+    font-family: FontAwesome;
+    left: 0;
+    font-size: 15px;
+}
+.single-courses_v .single-courses-area .single-curses-contert .description-content  ol {
+    margin: 0;
+    padding: 0;
+}
+.single-courses_v .single-courses-area .single-curses-contert .description-content  ol li {
+    font-family: "Open Sans", sans-serif;
+    color: #666666;
+    line-height: 24px;
+    font-size: 14px;
+    padding-left: 64px;
+    counter-increment: count-me 1;
+    list-style-type: none;
+
+}
+.single-courses_v .single-courses-area .single-curses-contert .description-content  ol li:before {
+    color: #fec722;
+    content: counter(count-me, decimal) ". ";
+    display: block;
+    left: -20px;
+    max-height: 0;
+    max-width: 0;
+    position: relative;
+    top: 0.05em;
+    font-weight: 700;
+}
